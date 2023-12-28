@@ -1,0 +1,17 @@
+@keyframes tiktok-loader {
+  0%,
+  100% {
+    fill: transparent;
+  }
+  25%,
+  75% {
+    fill: #ff0095;
+  }
+  50% {
+    fill: #0084ff;
+  }
+}
+
+.animate-tiktok-loader {
+  animation: tiktok-loader 2s infinite alternate;
+}
